@@ -147,11 +147,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="company.cpp" />
     <ClCompile Include="Department.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="tes project.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="company.h" />
     <ClInclude Include="Department.h" />
     <ClInclude Include="Employee.h" />
   </ItemGroup>
