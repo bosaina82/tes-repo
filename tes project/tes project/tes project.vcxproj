@@ -149,13 +149,17 @@
   <ItemGroup>
     <ClCompile Include="company.cpp" />
     <ClCompile Include="Department.cpp" />
+    <ClCompile Include="Distance.cpp" />
     <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="Subject.cpp" />
     <ClCompile Include="tes project.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="company.h" />
     <ClInclude Include="Department.h" />
+    <ClInclude Include="Distance.h" />
     <ClInclude Include="Employee.h" />
+    <ClInclude Include="Subject.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
