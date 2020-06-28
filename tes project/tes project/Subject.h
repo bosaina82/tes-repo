@@ -1,5 +1,7 @@
 #pragma once
-
+#include<string>
+#include<iostream>
+using namespace std;
 class Subject
 {
 private:
@@ -17,6 +19,8 @@ public:
 	int get_studentMarks();
 
 	Subject operator+(Subject s2);
+	subject operator(string n, int fm, int sm);
+
 
 
 

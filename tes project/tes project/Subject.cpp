@@ -1,7 +1,4 @@
-#include "Subject.h"
-#include<string>
-#include<iostream>
-using namespace std;
+#include "Subject.h";
 
 void Subject::set_name(string n)
 {
@@ -35,9 +32,14 @@ int Subject::get_studentMarks()
 
 Subject Subject::operator+(Subject s2)
 {
-     subject result;
-     result.s = s + d2.get_sm();
-     result.f = f +d2.get_fm();
-    
-
+    subject result;
+    result.s = s + d2.get_sm();
+    result.f = f + d2.get_fm();
 }
+subject::subject(string n, int sm, int fm);
+{
+    nam = n;
+    studentmarks = sm;
+    fullmark = fm;
+}
+
